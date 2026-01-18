@@ -27,7 +27,7 @@ btn.onclick = () => {
     
     if (age >= 18) {
         divText.innerHTML = `Your BMI = ${bmiResult.toFixed(2)}. <br> <br> 
-            Возрастные нормы (примерные) <br>
+            Age norm: <br>
             18–25 years old: Normal 19,5–22,9. <br>
             25–34 years old: Optimal 20–25. <br>
             35–44 years old: 21–26. <br>
@@ -89,5 +89,6 @@ const divText = createBlockParagraph();
 //     paragraph.innerHTML = "";
 //     paragraph.style.color = "red";
 // }
+
 
 
