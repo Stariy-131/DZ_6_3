@@ -1,0 +1,48 @@
+.block {
+    display: flex;
+    
+}
+
+.info-area {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;    
+    .setting {
+        h2 {
+            font-size: 28px;
+            color: white;
+        }
+        textarea {
+            width: 400px;
+            height: 20px;
+            font-size: 18px;
+            resize: none;
+        }
+        .target {
+            display: flex;
+            justify-content: right;
+            color: red;
+        }
+    }
+    .write-age {
+        textarea {
+            width: 150px;
+        }
+    }
+    .compilation {
+        // margin-top: 20px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        button {
+            width: 150px;
+            height: 50px;
+        }
+    }
+}
+
+.info {
+    width: 300px;
+    margin-top: 200px;
+    color: white;
+}

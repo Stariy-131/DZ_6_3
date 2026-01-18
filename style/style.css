@@ -1,0 +1,42 @@
+.block {
+  display: flex;
+}
+
+.info-area {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.info-area .setting h2 {
+  font-size: 28px;
+  color: white;
+}
+.info-area .setting textarea {
+  width: 400px;
+  height: 20px;
+  font-size: 18px;
+  resize: none;
+}
+.info-area .setting .target {
+  display: flex;
+  justify-content: right;
+  color: red;
+}
+.info-area .write-age textarea {
+  width: 150px;
+}
+.info-area .compilation {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.info-area .compilation button {
+  width: 150px;
+  height: 50px;
+}
+
+.info {
+  width: 300px;
+  margin-top: 200px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
